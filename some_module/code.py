@@ -7,3 +7,4 @@ def integrate_trapz(xs, ys):
     midpoints = 0.5 * (ys[1:] + ys[:-1])
     area = np.sum(widths * midpoints)
     return area
+
